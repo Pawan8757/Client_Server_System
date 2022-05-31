@@ -1,0 +1,29 @@
+{
+    "employeePayrollList": [
+      {
+        "id": 1,
+        "_name": "Pawan Kumar",
+        "_image": "../Assests/Profile_1.png",
+        "_gender": "male",
+        "_department": [
+          "Hr",
+          "Finance"
+        ],
+        "_salary": "30000",
+        "_note": "test",
+        "_startDate": "11-09-2021"
+      },
+      {
+        "_name": "Rameshwar",
+        "_image": "../Assests/Profile_1.png",
+        "_gender": "male",
+        "_department": [
+          "Hr"
+        ],
+        "_salary": "50700",
+        "_note": "Test",
+        "_startDate": "10-10-2015",
+        "id": 2
+      }
+    ]
+  }

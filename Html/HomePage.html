@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="../Css/HomePage.css">
+</head>
+<body>
+    
+    <header class="header-content header">
+        <div class="logo-content">
+            <img src="../Assests/logo.png" alt="image" style="width:56px">
+           
+            <div>
+                <span class="emp-text"> Employee</span><br>
+                <span class="emp-text emp-payroll">PAYROLL</span>
+
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="header-content">
+            <div class="emp-detail-text">
+                Employee Detail <div class="emp-count"></div>
+            </div>
+            <a href="../Html/Employee_Payroll.html" class="add-button" >
+                <img src="../Assests/add icon.png" width=28px alt="">Add User </a>
+            </div>  
+        <table id="display" class="table">
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Start Date</th>
+                <th>Actions</th>
+             </tr>
+             
+              <tr>
+                <td><img class="profile" alt="" src="../Assests/Profile_1.png"  width="30px"></img></td>
+                    <td>Pawan Kumar</td>
+                    <td>Male</td>
+                    <td><div class="dept-label">HR</div>
+                    <div class="dept-label">Finance</div></td>
+                    <td>150000</td>
+                    <td>1 Nov 2021</td>
+                    <td>
+                    <img id="1" onclick="remove(this)" alt="delete" src="../Assests/delete icon.png" width="25px">
+                    <img id="2" onclick="update(this)" alt="Update" src="../Assests/update icon.png" width="25px">
+                      </td>
+              </tr> `
+        </table>
+    </body>
+    </html>
